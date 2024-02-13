@@ -1,0 +1,12 @@
+api: 
+  url: http://contrast.ramognee.co/Contrast
+  api_key: C3GLKeL7CyNzujUX
+  service_key: BTBTANW8Y8DVHIP7
+  user_name: agent_a1b6bd29-8a27-43a1-8d70-c24091804004@RamogneeVaishno
+agent: 
+  service: 
+    logger: 
+      path: contrast_service.log
+      level: ERROR
+    host: 127.0.0.1
+    port: 30555

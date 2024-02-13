@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  apifuzzerv2:
+    image: apifuzzerv2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8910:8910
+      - 9091:9091

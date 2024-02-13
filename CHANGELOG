@@ -1,0 +1,129 @@
+Change log.
+
+- 2021.08.24.0
+[Updated] most vulnerable apis for dashboard according to rbac, create project api
+
+
+- 2021.08.26.0
+[Added] added put method in edit user api
+[Updated] updated the cwe's for modules with old cwe's
+
+
+- 2021.08.27.0
+[Updated] updated the pii regex part
+
+
+- 2021.08.31.0
+[Updated] Resolved the issue for vapi a4, resloved the issue for A7 missing headers
+
+- 2021.09.16.0
+[Updated] added logic to segregate urls based on ip in MITM
+
+-2021.09.15.0
+[Added] Added header column check for Swagger user input file
+
+-2021.09.15.0
+[Updated] Application Name -> Project Name Application URL -> Project URL in both csv and pdf report
+
+-2021.09.15.0
+[Added] Added thirdparty api column for Swagger API listing on Discovery page
+
+-2021.09.21.0
+[Updated] Swagger API collection,Log files,Patch method added in add rest api page
+
+-2021.09.23.0
+[Updated] Swagger API collection,Status Code is changed to 415 from 303 and 200.
+
+-2021.09.24.0
+[Updated] Swagger API collection,Added new validation apis and thirdparty api detection logic.
+
+-2021.09.24.0
+[Added] Added parameter flattening in swagger files user input excel file.
+
+-2021.09.24.0
+[Added] Added a3 log file separately.
+
+-2021.09.24.0
+[Updated] Updated testcase according to the sheet in A2
+
+-2021.09.26.0
+[Updated] Updated logs,Description and prevelance and technical values are also updated.A8 module fixed.
+ 
+-2021.10.04.0
+[Added] Added a validation for missing baseURL in the swagger file.Also added Path Varibles in swagger input file.
+and also the same field is added in the database.
+
+-2021.10.05.0
+[Added] Added local_variables for testing individual apis.
+
+-2021.10.25.0
+[Added] Multithreading is added for modules and multiprocessing is added for main testing program.
+
+-2021.10.26.0
+[Update] MultiPart form issue update.
+
+-2021.11.10.0
+[Update] Modified test_ids for A2 module.
+
+-2021.11.10.0
+[Update] API type not reflecting in case of edit API.
+
+-2021.11.11.0
+[Update] Updated RBAC logic in htmlreports API.
+
+-2021.11.11.0
+[Update] Updated RBAC logic in badpracticesdetailedreport and reports API.
+
+-2021.11.16.0
+[Update] Added TESTCASE VERBOSE in log records for module logs.
+
+-2021.11.16.0
+[Added] Added a new API cancel_scanning .This API is added if user wants to cancel the scanning process in case of API discovery process using web proxy.
+
+-2021.11.16.0
+[Update] Updated export pdf module.
+
+-2021.11.16.0
+[Update] Updated detectability,technical,exploitability,prevalance values to its string counterpart.
+
+-2021.11.16.0
+[Update] A2 module issue is due to keyword error in result data it is PII_found while making report searching for PII found.
+
+-2021.11.18.0
+[Update] body_type is not added in case of APIs scanned using web proxy process.
+
+-2021.11.18.0
+[Update] Access logs modified now User is added after the IP address.
+
+-2021.11.23.0
+[Updated] Updated the export_pdf module.Made some values dynamic.
+
+-2021.11.24.0
+[Added] Added a API for cancelling the testing in mid way.
+
+-2021.11.24.0
+[Updated] Updated the combined django module.
+
+-2021.11.24.0
+[Updated] Coupled the makealltestreport API with starttest API.
+
+-2021.11.24.0
+[Updated] Updated settings.py so that application can accept unicode characers OPTIONS:{"charset":"utf8mb4"}.
+
+-2021.12.01.0
+[Added] Added a API for ready scans.
+
+-2021.12.01.0
+[Added] Added a API for completed scans.
+
+-2021.12.01.0
+[Added] Added a API for aborted scans.
+
+-2021.12.01.0
+[Updated] Updated scan header function in INSOMNIA_duplicate module .
+
+-2021.12.01.0
+[Updated] Updated API ready scan.
+
+-2021.12.01.0
+[Updated] Updated API for saving swagger APIs.
